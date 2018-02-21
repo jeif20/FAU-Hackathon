@@ -34,7 +34,7 @@ distance = round(distance, 2)
 if distance <= 25:
         camera = PiCamera()
         camera.start_preview()
-        sleep(3)
+        sleep(1)
         camera.capture('/home/pi/picture.jpg')
         camera.stop_preview()
 
